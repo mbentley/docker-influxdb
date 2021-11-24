@@ -5,6 +5,7 @@ Docker image that extends the default `influxdb` images
 ## Tags
 
 * `2.1-alpine` - maps to `influxdb:2.1-alpine`
+* `2.0-alpine` - maps to `influxdb:2.0-alpine`
 
 ## Differences
 
