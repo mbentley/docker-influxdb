@@ -1,0 +1,12 @@
+# mbentley/influxdb
+
+Docker image that extends the default `influxdb` images
+
+## Tags
+
+* `2.1-alpine` - maps to `influxdb:2.1-alpine`
+
+## Differences
+
+* Adds ability to change the UID/GID of the user at build time (defaults to `512:512`)
+* Custom pre-entrypoint to set UID/GID filesystem permissions recursively at start time to override previous permissions from parent image
