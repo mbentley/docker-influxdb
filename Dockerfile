@@ -1,7 +1,7 @@
 # set the default tag to start from
 ARG INFLUXDB_TAG="2.1-alpine"
 FROM influxdb:${INFLUXDB_TAG}
-MAINTAINER Matt Bentley <mbentley@mbentley.net>
+LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
 
 # build args for the new UID & GID
 ARG INFLUX_UID="512"
