@@ -5,7 +5,8 @@ FROM influxdb:${INFLUXDB_TAG} AS upstream
 RUN apk --no-cache upgrade --purge
 
 # copy over the contents into a new image and add my customizations
-FROM scratch COPY --from=upstream / /
+FROM scratch
+COPY --from=upstream / /
 LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
 
 # build args for the new UID & GID
