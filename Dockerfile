@@ -1,5 +1,5 @@
 # start from upstream buildkit image & upgrade all packages
-ARG INFLUXDB_TAG="2.4-alpine"
+ARG INFLUXDB_TAG="2.5-alpine"
 FROM influxdb:${INFLUXDB_TAG} AS upstream
 
 RUN apk --no-cache upgrade --purge
