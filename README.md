@@ -1,10 +1,13 @@
 # mbentley/influxdb
 
+> [!WARNING]
+> This repo has been archived as I no longer use InfluxDB but has been left available in case anyone finds it useful.
+
 Docker image that extends the default `influxdb` images
 
 ## Tags
 
-* `2.7-alpine` - maps to `influxdb:2.6-alpine`
+* `2.7-alpine` - maps to `influxdb:2.7-alpine`
 * `2.6-alpine` - maps to `influxdb:2.6-alpine`
 * `2.5-alpine` - maps to `influxdb:2.5-alpine`
 * `2.4-alpine` - maps to `influxdb:2.4-alpine`
